@@ -19,7 +19,7 @@ from random import randrange, sample
 def gather():
     words_lower_limit = 5
     words_upper_limit = 10
-    corpus_path = "/Users/grantrosson/Dropbox/Code/poem-machine/texts/dickinson.txt"
+    corpus_path = "static/texts/dickinson.txt"
 
    # open corpus from file and read into memory
     with open(corpus_path, 'rt') as corpus:
