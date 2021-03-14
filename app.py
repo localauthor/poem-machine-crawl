@@ -11,7 +11,7 @@ def poem_machine(source="dickinson"):
     return '''
     {% block body %}
     {% endblock %}
-    '''.format(poem=poem)
+    '''.format(poem=poem, title=title)
 
 
 @app.route('/<source>')
