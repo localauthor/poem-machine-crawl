@@ -58,7 +58,7 @@ def poem_machine(source="dickinson"):
     <body>
         <br>
         <div class="ye">
-        <ye>Poem-Machine now serving: <u><i>Dickinson's Poems</i></u></ye>
+        <ye>Poem-Machine is now processing: <u><i>Dickinson's Poems</i></u></ye>
         </div>
 	<div class="container">
 		<ul>
@@ -72,7 +72,7 @@ def poem_machine(source="dickinson"):
     <script type="text/javascript">
 		$(function(){{
 			$(".container").scrollText({{
-				'duration': 2000
+				'duration': 8000
 			}});
 		}});
 	</script>    
@@ -151,7 +151,7 @@ def poem_machine_name(source="dickinson"):
     <body>
         <br>
         <div class="ye">
-        <ye>Poem-Machine is now serving: <u><i>{title}</i></u></ye>
+        <ye>Poem-Machine is now processing: <u><i>{title}</i></u></ye>
         </div>
         <div class="container">
 		<ul>
@@ -165,7 +165,7 @@ def poem_machine_name(source="dickinson"):
     <script type="text/javascript">
 		$(function(){{
 			$(".container").scrollText({{
-				'duration': 2000
+				'duration': 8000
 			}});
 		}});
 	</script>    

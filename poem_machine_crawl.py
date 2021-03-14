@@ -4,10 +4,6 @@ def gather(source):
     words_lower_limit = 4
     words_upper_limit = 10
 
-## for local
-##    corpus_path = "/Users/grantrosson/Dropbox/Code/poem-machine-crawl/static/texts/{}.txt".format(source)
-
-## for web/heroku
     corpus_path = "static/texts/{}.txt".format(source)
 
    # open corpus from file and read into memory
