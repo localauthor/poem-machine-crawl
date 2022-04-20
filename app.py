@@ -28,6 +28,9 @@ def poem_machine_name(source="dickinson"):
         elif source == "fuller":
             title = "Fuller's Summer on the Lakes"
             break
+        elif source == "constitution":
+            title = "The U.S. Constitution"
+            break
         else:
             source = "dickinson"
             title = "Dickinson's Poems"
