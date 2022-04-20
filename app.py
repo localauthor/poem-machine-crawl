@@ -4,8 +4,8 @@ app = Flask(__name__)
 app.config["DEBUG"] = True
 
 @app.route('/')
-def poem_machine(source="dickinson"):
-    title = "Dickinson's Poems"
+def poem_machine(source="webster1913"):
+    title = "Webster's Unabridged Dictionary (1913)"
     poem = gather(source)
     return render_template('body.html', poem=poem, title=title)
     return '''
@@ -22,6 +22,9 @@ def poem_machine_name(source="dickinson"):
         if source == "dickinson":
             title = "Dickinson's Poems"
             break
+        elif source == "webster1913":
+            title = "Webster's Unabridged Dictionary (1913)"
+            break        
         elif source == "thoreau":
             title = "Thoreau's Journal"
             break
