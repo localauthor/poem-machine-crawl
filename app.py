@@ -22,6 +22,9 @@ def poem_machine_name(source="dickinson"):
         if source == "dickinson":
             title = "Dickinson's Poems"
             break
+        elif source == "revelation":
+            title = "Revelation"
+            break
         elif source == "webster1913":
             title = "Webster's Unabridged Dictionary (1913)"
             break        
